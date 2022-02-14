@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
+    <title>Barca Merch</title>
+  </head>
+  <body id="home">
+    <div class="container" id="header">
+      <header class="header">
+        <div class="hero">
+          <img src="img/logo.jpg" alt="header-img" id="header-img">
+          <h2 class="heading">WPU Merch Shop</h2>
+          <p class="sub-heading">Hoodie & T-Shirt</p>
+        </div>
+        <div class="features feature-1">
+          <h4 class="price">IDR 250K</h4>
+          <p class="item">Hoodie</p>
+        </div>
+        <div class="features feature-2">
+          <h4 class="price">IDR 150K</h4>
+          <p class="item">T-Shirt</p>
+        </div>
+      </header>
+
+      <nav class="menu" id="nav-bar">
+        <div class="menu-toggle">
+          <input type="checkbox"/>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="brand">
+          <h1>Barca Merch</h1>
+        </div>
+        <ul class="menu-list">
+          <li ><a class="nav-link" href="#home">Home</a></li>
+          <li ><a class="nav-link" href="#header">Products</a></li>
+          <li ><a class="nav-link" href="#services">Services</a></li>
+          <li ><a class="nav-link" href="#gallery">Gallery</a></li>
+        </ul>
+      </nav>
+
+      <div class="tambahan" id="services">
+        <h2>Services</h2>
+      </div>
+
+      <section class="services">
+        <div class="service">
+          <h3>Tutorial</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore </p>
+        </div>
+        <div class="service">
+          <h3>Online Course</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore </p>
+        </div>
+        <div class="service">
+          <h3>Merch</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore </p>
+        </div>
+        <div class="service">
+          <h3>Podcast</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore </p>
+        </div>
+      </section>
+
+      <section class="gallery" id="gallery">
+        <h2>Gallery</h2>
+        <img src="https://source.unsplash.com/random/200x200" alt="">
+        <img src="https://source.unsplash.com/random/201x201" alt="">
+        <img src="https://source.unsplash.com/random/202x202" alt="">
+        <img src="https://source.unsplash.com/random/203x203" alt="">
+        <img src="https://source.unsplash.com/random/204x204" alt="">
+        <img src="https://source.unsplash.com/random/205x205" alt="">
+        <img src="https://source.unsplash.com/random/206x206" alt="">
+        <img src="https://source.unsplash.com/random/207x207" alt="">
+        <img src="https://source.unsplash.com/random/208x208" alt="">
+        <img src="https://source.unsplash.com/random/209x209" alt="">
+        <img src="https://source.unsplash.com/random/210x210" alt="">
+        <img src="https://source.unsplash.com/random/211x211" alt="">
+      </section>
+
+      <iframe id="video" width="585" height="330" src="https://www.youtube.com/embed/Ynph_H1CIQE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      <section class="contact">
+        <h2>If you want to subscribe</h2>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+          <input type="email" id="email" placeholder="Input your email" name="email">
+          <input type="submit" id="submit" value="Subscribe">
+        </form>
+      </section>
+
+    </div>
+
+    <script type="text/javascript">
+      
+      const menuToggle = document.querySelector('.menu-toggle input');
+      const nav = document.querySelector('nav ul');
+
+      menuToggle.addEventListener('click', function() {
+      nav.classList.toggle('slide');
+      });
+
+    </script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
